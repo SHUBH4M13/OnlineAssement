@@ -26,8 +26,3 @@ export default function FeatureCard(props) {
         </div>
     )
 }
-
-
-//1e1e1e
-
-//
