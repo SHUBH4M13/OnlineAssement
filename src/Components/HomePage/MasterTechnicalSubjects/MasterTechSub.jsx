@@ -1,5 +1,5 @@
 import React from 'react'
-import SubjectCards from './SubjectCards'
+import SubjectCards from '../../Cards/SubjectCards'
 import { ComputerDesktopIcon } from '@heroicons/react/24/solid'
 export default function MasterTechSub() {
     return (

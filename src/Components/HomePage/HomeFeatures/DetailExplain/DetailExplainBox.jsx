@@ -1,6 +1,6 @@
 import React from 'react'
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import ExplanationWrapper from './ExplanationWrapper'
+import ExplanationWrapper from '../../../Cards/ExplanationWrapper'
 
 export default function DetailExplainBox() {
     return (

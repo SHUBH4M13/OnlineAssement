@@ -1,16 +1,18 @@
 import React from 'react'
-import FeatureCard from './FeatureCard'
+import FeatureCard from '../../Cards/FeatureCard'
 import DetailExplainBox from './DetailExplain/DetailExplainBox'
 export default function Features() {
     return (
         <div className='bg-[#141414] '>
-            <div>
-                <h1 className=' font-Helvetica font-medium text-[42px] text-center text-white'>Powerful Features For OA Success</h1>
-                <div className=' py-5 '>
-                    <p className=' text-center text-white/50 '>Our platform is designed with advanced features to help you prepare </p>
-                    <p className=' text-center text-white/50 '>effectively and boost your performance in technical assessments.</p>
-                </div>
 
+            <div className=' py-10 flex  justify-center items-center '>
+                <div>
+                    <h3 className='text-6xl md:text-5xl sm:text-4xl font-Helvetica font-medium text-white '>Powerful Features For OA Success</h3>
+                    <p className='py-5 font-Helvetica font-medium text-white/50 text-center '>
+                    Our platform is designed with advanced features to help you prepare <br />
+                    effectively and boost your performance in technical assessments.
+                    </p>
+                </div>
             </div>
 
 
