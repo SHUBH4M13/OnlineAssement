@@ -1,9 +1,12 @@
 import React from 'react'
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
+import ExplanationWrapper from './ExplanationWrapper'
+
 export default function DetailExplainBox() {
     return (
         <div className=' px-10  w-8/10 flex'>
-            <div className='w-6/10 bg-[#1e1e1e] rounded-xl '>
+
+            <div className=' w-5/10 bg-[#1e1e1e] rounded-tl-xl rounded-bl-xl px-10'>
                 <div className=' px-6 py-7'>
                     <h3 className=' font-Helvetica font-medium text-[#6366f1] '>Featured Highlight</h3>
                 </div>
@@ -49,9 +52,15 @@ export default function DetailExplainBox() {
                 </div>
 
             </div>
+
+            <div className='bg-[#252525]  w-5/10 rounded-tr-xl rounded-br-xl flex justify-center items-center '>
+                <ExplanationWrapper/>
+            </div>
+
         </div>
     )
 }
 
+//6366f1.
+//252525
 //1e1e1e
-//6366f1

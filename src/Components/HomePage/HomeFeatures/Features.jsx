@@ -1,6 +1,6 @@
 import React from 'react'
 import FeatureCard from './FeatureCard'
-import DetailExplainBox from './DetailExplainBox'
+import DetailExplainBox from './DetailExplain/DetailExplainBox'
 export default function Features() {
     return (
         <div className='bg-[#141414] '>
@@ -41,7 +41,7 @@ export default function Features() {
                 </div>
             </div>
             
-            <div className=' py-8 px-12 '>
+            <div className=' py-8 px-12 flex justify-center items-center '>
                 <DetailExplainBox/>
             </div>
 
