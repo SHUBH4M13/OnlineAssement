@@ -25,7 +25,7 @@ export default function MacbookProcess () {
                     <p>Q7. Which of the following is a non-preemptive scheduling algorithm?</p>
                 </div>
                 <div className=' flex flex-col gap-4 px-3 py-8 '>
-                    <Option OptionA="A." OptionDesc="FCFS ( First Come First Serve) " />
+                    <Option OptionA="A." OptionDesc="FCFS ( First Come First Serve ) " />
                     <Option OptionA="B." OptionDesc="SJF  ( Shortest Job First ) " />
                     <Option OptionA="C." OptionDesc="RR ( Round Robin ) " />
                     <Option OptionA="D." OptionDesc="Multilevel Queue" />
